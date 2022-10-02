@@ -1,5 +1,5 @@
 # TP Codo a Codo Front End
-<h2> Prof Emiliano Espinoso, comisión 22515 <h2>
+<h3> Prof Emiliano Espinoso, comisión 22515 </h3>
 
 <ul> Integrantes
   <li> Debora
