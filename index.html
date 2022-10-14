@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelis y series</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <br>
@@ -14,23 +17,51 @@
 
 </span>
 
-<nav>
-
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="series.html">Series<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Amazon</a></li>
+              <li><a href="#">HBO</a></li>
+              <li><a href="#">Netflix</a></li>
+              <li><a href="#">Disney</a></li>
+              <li><a href="#">Paramount</a></li>
+              <li><a href="#">Otros</a></li>
+            </ul>
+          </li>
+        <li><a href="peliculas.html">Peliculas</a></li>
+        <li><a href="tv.html">TV</a></li>
+      </ul>
+    </div>
+    <input id="busqueda" type="text" placeholder="Buscar..." >
 </nav>
 
+<div class="container">
+    <h3>Espacio para publicidad</h3>
+    <p>banner</p>
+</div>
+
 <br>
 <br>
 
-<h1>Recomendaciones</h1>
+<h1><b>Recomendaciones</b></h1>
 <br>
 <br>
 <div class="grid-recomendaciones">
-    <div class="poster-uno"><a href="" target="_blank" src="img/House_of_Dragon.jpg" alt="poster_House_Of_Dragon" id="poster"></a></div>
+    <div class="poster-uno"><a href="" target="_blank"><img src="img/House_of_Dragon.jpg" alt="poster_House_Of_Dragon" id="poster"></a></div>
     <div class="poster-dos"><a href="" target="_blank"><img src="img/Rings_of_Power.jpg" alt="poster_Rings_of_Power" id="poster"></a></div>
     <div class="poster-tres"><a href=""target="_blank"><img src="img/all_of_us_are_dead.jpg" alt="poster_all_of_us_are_dead" id="poster"></a></div>
-    <div class="desc-uno"> <br> <h2>La Casa del dragón</h2></div>
-    <div class="desc-dos">Five</div>
-    <div class="desc-tres"><p>Six</p></div>
+    <div class="titulo-uno"> <br> <h3><i>La casa del dragón</i> </h3></div>
+    <div class="titulo-dos"><br> <h3><i>El señor de los anillos: <br> Los Anillos de Poder</i></h3></div>
+    <div class="titulo-tres"><br> <h3><i>Todos estamos muertos</i></h3></div>
+    <div class="plot-uno"> <p>Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</p></div>
+    <div class="plot-dos"><p>Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</p></div>
+    <div class="plot-tres"><p>Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</p></div>
 </div>
 
 <script src="script.js"></script>
