@@ -138,16 +138,8 @@ h1{
 
 /* login */
 
-#cuenta{
-  background-image: url("../img/fondo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-
-main{
+#cuenta
+ main{
   width: 100%;
   padding: 20%;
   margin: auto;
