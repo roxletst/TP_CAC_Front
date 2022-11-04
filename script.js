@@ -37,7 +37,7 @@ email.addEventListener("input", function (event) {
   } else {
     email.setCustomValidity("");
   }
-});
+}, );
 
 // Cuenta regresiva para sección TV
 
