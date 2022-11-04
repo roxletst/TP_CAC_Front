@@ -9,6 +9,10 @@
   color: #FFFFFF;
   background-image: url(../img/background.jpg);
   background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
