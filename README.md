@@ -4,7 +4,7 @@
 <ul> <i> Integrantes: </i>
   <br>
   <br>
-  <li> Debora Hoijemberg
+  <li> Deborah Hoijemberg
   <li> Roxana Steinman
  </ul>
 <br> 
