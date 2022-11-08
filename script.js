@@ -29,17 +29,18 @@ function iniciarSesion(){
 //Validación de Inicio de Sesión
 function login(){
 //validar usuario y contraseña   
-const email = document.getElementById("mail");
-
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("Por favor ingresá una dirección de mail correcta");
-    email.reportValidity();
-  } else {
-    email.setCustomValidity("");
-  }
-});
-}
+const email = document.getElementById("user");
+if(email.value=="1"){
+  alert("mail es incorrecto")
+// email.addEventListener("input", function (event) {
+//   if (email.validity.typeMismatch) {
+//     email.setCustomValidity("Por favor ingresá una dirección de mail correcta");
+//     email.reportValidity();
+//   } else {
+//     email.setCustomValidity("");
+//   }
+// });
+}}
 // Cuenta regresiva para sección TV
 
 let fechaCuentaRegresiva = new Date("Ene 5, 2024 15:37:25").getTime();
