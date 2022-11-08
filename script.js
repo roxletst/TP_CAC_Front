@@ -27,6 +27,7 @@ function iniciarSesion(){
 }
 
 //Validación de Inicio de Sesión
+function login(){
 //validar usuario y contraseña   
 const email = document.getElementById("mail");
 
@@ -38,7 +39,7 @@ email.addEventListener("input", function (event) {
     email.setCustomValidity("");
   }
 });
-
+}
 // Cuenta regresiva para sección TV
 
 let fechaCuentaRegresiva = new Date("Ene 5, 2024 15:37:25").getTime();
