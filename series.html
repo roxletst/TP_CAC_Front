@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b2993177e2.js" crossorigin="anonymous"></script>
     <title>Series - RODE</title>
 </head>
 <body>
     <span id="header">
         <a href="index.html"><img src="img/logo_generico.png" id="logo" alt="logo"></a>
     
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#"></a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Series<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Amazon</a></li>
-                  <li><a href="#">HBO</a></li>
-                  <li><a href="#">Netflix</a></li>
-                  <li><a href="#">Disney</a></li>
-                  <li><a href="#">Paramount</a></li>
-                  <li><a href="#">Otros</a></li>
-                </ul>
-              </li>
-            <li><a href="peliculas.html">Peliculas</a></li>
-            <li><a href="tv.html">TV</a></li>
+<nav class="navbar navbar-inverse" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Series<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="series.html">Amazon</a></li>
+            <li><a href="#">HBO</a></li>
+            <li><a href="#">Netflix</a></li>
+            <li><a href="#">Disney</a></li>
+            <li><a href="#">Paramount</a></li>
+            <li><a href="#">Otros</a></li>
           </ul>
-        </div>
-        <input id="busqueda" type="text" placeholder="Buscar..." >
-    </nav>
+        </li>
+      <li><a href="peliculas.html">Peliculas</a></li>
+      <li><a href="series.html">TV</a></li>
+      <li><a href="cuenta.html">Cuenta</a></li>
+    </ul>
+  </div>
+  <input id="busqueda" type="text" placeholder="Buscar..." >
+</nav>
     
     </span>
     
@@ -66,14 +68,27 @@
 <h3>Tanta petere igitur, ne sineres memini fieri etiam aliquam inclinationem ad consequendum minima. Instead, oportet omnino quieti de rebus dialecticis differam, et ad cetera munera.</h3>
 <br>
 <h3>Quodsi haberent magnalia inter potentiam et divitias, et non illam quidem haec eo spectant haec quoque vos omnino desit illud quo solo felicitatis libertatisque perficiuntur.</h3>
-<br>
-<br>
+<br><br>
 <h2><i>Dónde verlo</i></h2>
 <br>
 <img id="logoStreaming" src="img/logo_Amazon.png" alt="logo de Amazon Prime Video">
 <br>
+
 <h3><a href="https://www.primevideo.com/offers/nonprimehomepage/ref=atv_nb_lcl_es_ES?ie=UTF8" target="_blank">Amazon Prime Video</a></h3>
-    <script src="script.js"></script>
+
+<br><br><br>
+<div class="footer-basico">
+  <footer id="contenido-footer">
+      <div class="social"><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Contacto</a></li>
+          <li class="list-inline-item"><a href="#">Acerca de</a></li>
+          <li class="list-inline-item"><a href="#">Mailing List</a></li>
+      </ul>
+      <p class="copyright">Rode (Un proyecto de Codo a Codo 4.0) © 2022</p>
+  </footer>
+</div>
+<script src="script.js"></script>
 </head>
 <body>
     
